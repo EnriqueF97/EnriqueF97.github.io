@@ -26,9 +26,9 @@
           <a href="#contact" class="hover:text-zinc-50">Contact</a>
           <a href="#background" class="hover:text-zinc-50 click">Background</a>
           <a href="#skills" class="hover:text-zinc-50">Skills</a>
+          <a href="#portfolio" class="hover:text-zinc-50">Portfolio</a>
           <a href="#experience" class="hover:text-zinc-50">Experience</a>
           <a href="#certifications" class="hover:text-zinc-50">Certifications</a>
-          <a href="#portfolio" class="hover:text-zinc-50">Portfolio</a>
         </nav>
       </div>
     </header>
@@ -251,6 +251,111 @@
         </div>
       </section>
 
+      <section id="portfolio" class="scroll-mt-24">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+          <!-- Title column -->
+          <div class="lg:col-span-3">
+            <h2 class="text-3xl font-semibold mb-4 lg:text-left text-center text-white">Portfolio projects</h2>
+          </div>
+          <!-- Content column -->
+          <div class="lg:col-span-9">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <div class="flex flex-col bg-gradient-to-br from-white to-purple-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
+                <h3 class="font-bold text-xl mb-2">Asteroid Killer</h3>
+                <p class="mb-4">A Three.js game where you blast incoming asteroids. Built from scratch with visuals, UI, and logic fully customized.</p>
+
+                <div class="mt-auto flex space-x-8 justify-center pt-4">
+                  <a
+                    href="https://main.d32ijrgwva29aa.amplifyapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-purple-600 hover:text-purple-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-joystick text-2xl"></i>
+                    <span class="text-sm">Play</span>
+                  </a>
+                  <a
+                    href="https://youtu.be/SzoTNIJ9cV4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-red-600 hover:text-red-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-play-btn-fill text-2xl"></i>
+                    <span class="text-sm">Check</span>
+                  </a>
+                  <a
+                    href="https://github.com/EnriqueF97/asteroid-killer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-github text-2xl"></i>
+                    <span class="text-sm">GitHub</span>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-gradient-to-tr from-white to-rose-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
+                <h3 class="font-bold text-xl mb-2">Share Prompts</h3>
+                <p>
+                  Discover and share useful AI prompts with other users, just as easy as that. This project demonstrates NextJS capabilities to quickly build a
+                  full stack application in React using directory paths. Google API integration is used to log in and MongoDB to store both user profile info
+                  and prompts.
+                </p>
+                <div class="mt-auto flex space-x-8 justify-center pt-4">
+                  <a
+                    href="https://main.d32ijrgwva29aa.amplifyapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-cursor-fill text-2xl"></i>
+                    <span class="text-sm">Visit</span>
+                  </a>
+                  <a
+                    href="https://github.com/EnriqueF97/share_prompts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-github text-2xl"></i>
+                    <span class="text-sm">GitHub</span>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-gradient-to-bl from-white to-amber-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
+                <h3 class="font-bold text-xl mb-2">Lunar Lander</h3>
+                <p>
+                  Train a RL agent to land a rocket on a platform using OpenAI's Gymnasium. This project showcases the learning capabilities of a Double Deep
+                  Q-Network (DDQN) agent, which learns to navigate and land the rocket through trial and error, optimizing its actions based on rewards received
+                  from the environment.
+                </p>
+                <div class="mt-auto flex space-x-8 justify-center pt-4">
+                  <a
+                    href="https://youtu.be/l5ZGZeFIHQU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-red-600 hover:text-red-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-play-btn-fill text-2xl"></i>
+                    <span class="text-sm">Check</span>
+                  </a>
+                  <a
+                    href="https://github.com/EnriqueF97/ReinforcementLearningProjects"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-github text-2xl"></i>
+                    <span class="text-sm">GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- https://github.com/EnriqueF97/share_prompts -->
+        </div>
+      </section>
+
       <section id="experience" class="scroll-mt-24">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
           <div class="lg:col-span-3">
@@ -408,111 +513,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="portfolio" class="scroll-mt-24">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
-          <!-- Title column -->
-          <div class="lg:col-span-3">
-            <h2 class="text-3xl font-semibold mb-4 lg:text-left text-center text-white">Portfolio projects</h2>
-          </div>
-          <!-- Content column -->
-          <div class="lg:col-span-9">
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <div class="flex flex-col bg-gradient-to-br from-white to-purple-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
-                <h3 class="font-bold text-xl mb-2">Asteroid Killer</h3>
-                <p class="mb-4">A Three.js game where you blast incoming asteroids. Built from scratch with visuals, UI, and logic fully customized.</p>
-
-                <div class="mt-auto flex space-x-8 justify-center pt-4">
-                  <a
-                    href="https://main.d32ijrgwva29aa.amplifyapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-purple-600 hover:text-purple-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-joystick text-2xl"></i>
-                    <span class="text-sm">Play</span>
-                  </a>
-                  <a
-                    href="https://youtu.be/SzoTNIJ9cV4"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-red-600 hover:text-red-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-play-btn-fill text-2xl"></i>
-                    <span class="text-sm">Check</span>
-                  </a>
-                  <a
-                    href="https://github.com/EnriqueF97/asteroid-killer"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-github text-2xl"></i>
-                    <span class="text-sm">GitHub</span>
-                  </a>
-                </div>
-              </div>
-              <div class="flex flex-col bg-gradient-to-tr from-white to-rose-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
-                <h3 class="font-bold text-xl mb-2">Share Prompts</h3>
-                <p>
-                  Discover and share useful AI prompts with other users, just as easy as that. This project demonstrates NextJS capabilities to quickly build a
-                  full stack application in React using directory paths. Google API integration is used to log in and MongoDB to store both user profile info
-                  and prompts.
-                </p>
-                <div class="mt-auto flex space-x-8 justify-center pt-4">
-                  <a
-                    href="https://main.d32ijrgwva29aa.amplifyapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-cursor-fill text-2xl"></i>
-                    <span class="text-sm">Visit</span>
-                  </a>
-                  <a
-                    href="https://github.com/EnriqueF97/share_prompts"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-github text-2xl"></i>
-                    <span class="text-sm">GitHub</span>
-                  </a>
-                </div>
-              </div>
-              <div class="flex flex-col bg-gradient-to-bl from-white to-amber-50 shadow-md rounded-xl p-4 transition-transform transform hover:-translate-y-1">
-                <h3 class="font-bold text-xl mb-2">Lunar Lander</h3>
-                <p>
-                  Train a RL agent to land a rocket on a platform using OpenAI's Gymnasium. This project showcases the learning capabilities of a Double Deep
-                  Q-Network (DDQN) agent, which learns to navigate and land the rocket through trial and error, optimizing its actions based on rewards received
-                  from the environment.
-                </p>
-                <div class="mt-auto flex space-x-8 justify-center pt-4">
-                  <a
-                    href="https://youtu.be/l5ZGZeFIHQU"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-red-600 hover:text-red-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-play-btn-fill text-2xl"></i>
-                    <span class="text-sm">Check</span>
-                  </a>
-                  <a
-                    href="https://github.com/EnriqueF97/ReinforcementLearningProjects"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
-                  >
-                    <i class="bi bi-github text-2xl"></i>
-                    <span class="text-sm">GitHub</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- https://github.com/EnriqueF97/share_prompts -->
         </div>
       </section>
     </main>
