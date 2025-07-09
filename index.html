@@ -259,12 +259,51 @@
           </div>
           <!-- Content column -->
           <div class="lg:col-span-9">
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <!-- Pac-Man CTF -->
+              <div
+                class="flex flex-col bg-gradient-to-bl from-white to-purple-50 shadow-md rounded-2xl p-4 transition-transform transform hover:-translate-y-1"
+              >
+                <h3 class="font-bold text-xl mb-2">Pac-Man CTF</h3>
+                <img src="./images/pacman_ctf.png" alt="Pacman-CTF" class="mb-6 rounded-xl h-75 max-h-75 object-contain" />
+                <p>
+                  The contest organized by UPF from Barcelona challenges participants to design intelligent agents that compete in a team-based,
+                  capture-the-flag variant of Pacman, where agents must balance offensive and defensive strategies. We used an A* algorithm for offensive and
+                  defensive with a unique defensive heuristic. Achieved Top 10 position in the final ranking.
+                </p>
+                <p><strong>Team: only-pacmans</strong></p>
+                <div class="mt-auto flex space-x-8 justify-center pt-4">
+                  <a
+                    href="https://pacman-contest.upf.edu/final_UL_24-25/results_0.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-purple-600 hover:text-purple-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-table text-2xl"></i>
+                    <span class="text-sm">Check scores</span>
+                  </a>
+                  <a
+                    href="https://github.com/EnriqueF97/EMAI-AS-Labs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex flex-col items-center text-center font-bold text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                  >
+                    <i class="bi bi-github text-2xl"></i>
+                    <span class="text-sm">GitHub</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Asteroid Killer -->
               <div
                 class="flex flex-col bg-gradient-to-br from-white to-purple-50 shadow-md rounded-2xl p-4 transition-transform transform hover:-translate-y-1"
               >
                 <h3 class="font-bold text-xl mb-2">Asteroid Killer</h3>
-                <p class="mb-4">A Three.js game where you blast incoming asteroids. Built from scratch with visuals, UI, and logic fully customized.</p>
+                <img src="./images/asteroid-killer.png" alt="Asteroid-killer gameplay" class="mb-6 rounded-xl h-100 object-contain" />
+
+                <p class="mb-4">
+                  A Three.js game where you blast incoming asteroids. Built from scratch with visuals, UI, and logic fully customized. Normal texture maps,
+                  dynamic lightning, bullet dispersion, increasing difficulty overtime are combined for a challenging experience.
+                </p>
 
                 <div class="mt-auto flex space-x-8 justify-center pt-4">
                   <a
@@ -296,12 +335,14 @@
                   </a>
                 </div>
               </div>
-              <div class="flex flex-col bg-gradient-to-tr from-white to-rose-50 shadow-md rounded-2xl p-4 transition-transform transform hover:-translate-y-1">
+              <!-- Share prompts -->
+              <div class="flex flex-col bg-gradient-to-tr from-white to-cyan-50 shadow-md rounded-2xl p-4 transition-transform transform hover:-translate-y-1">
                 <h3 class="font-bold text-xl mb-2">Share Prompts</h3>
+                <img src="./images/share_prompts.png" alt="Share_Prompts page" class="mb-6 rounded-xl h-75 object-contain" />
                 <p>
                   Discover and share useful AI prompts with other users, just as easy as that. This project demonstrates NextJS capabilities to quickly build a
                   full stack application in React using directory paths. Google API integration is used to log in and MongoDB to store both user profile info
-                  and prompts.
+                  and prompts. Work in progress...
                 </p>
                 <div class="mt-auto flex space-x-8 justify-center pt-4">
                   <a
@@ -324,8 +365,11 @@
                   </a>
                 </div>
               </div>
+              <!-- Lunar Lander -->
               <div class="flex flex-col bg-gradient-to-bl from-white to-amber-50 shadow-md rounded-2xl p-4 transition-transform transform hover:-translate-y-1">
                 <h3 class="font-bold text-xl mb-2">Lunar Lander</h3>
+                <img src="./images/lunar_lander.png" alt="Lunar Lander" class="mb-6 rounded-xl h-75 object-contain" />
+
                 <p>
                   Train a RL agent to land a rocket on a platform using OpenAI's Gymnasium. This project showcases the learning capabilities of a Double Deep
                   Q-Network (DDQN) agent, which learns to navigate and land the rocket through trial and error, optimizing its actions based on rewards received
